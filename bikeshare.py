@@ -46,6 +46,8 @@ def get_filters():
     )
     return (city, month, day) if confirmation == 'y' else get_filters()
 
+# This function to load data of a city via month and day params
+
 
 def load_data(city, month, day):
     """Load data based on the specified filters."""
