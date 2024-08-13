@@ -52,6 +52,7 @@ def load_data(city, month, day):
     """Load data based on the specified filters."""
     print("\nLoading data for your selected filters...")
     start_time = time.time()
+    print(start_time)
 
     df = pd.concat([pd.read_csv(CITY_DATA[c]) for c in city], sort=True) if isinstance(
         city, list) else pd.read_csv(CITY_DATA[city])
