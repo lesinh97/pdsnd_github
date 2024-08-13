@@ -7,7 +7,7 @@ This document is created on 13/08/2023
 Bike share analytic
 
 ### Description
-Describe what your project is about and what it does
+The project aim to analyze the statictis of US bike share
 
 ### Files used
 Include the files used
