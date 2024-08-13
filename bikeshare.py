@@ -17,6 +17,7 @@ def get_choice(prompt, choices=('y', 'n')):
     """Get a valid user input based on provided choices."""
     while True:
         user_input = input(prompt).lower().strip()
+        print(user_input)
         if user_input == 'end':
             raise SystemExit
         elif ',' not in user_input:
